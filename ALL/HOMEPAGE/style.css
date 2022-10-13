@@ -8,7 +8,7 @@
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("background1.jpg");
     background-position:center;
     background-size:cover;
-    position:relative;
+    
 
 }
 nav{
@@ -18,12 +18,13 @@ nav{
     align-items: center;
     color:black;
     background-color: white;
-    height: 9px;
-    position: fixed;
+    height: 26px;
+    position:fixed;
+    width: 1400px;
 
 }
 .sticky{
-    position: fixed;
+    position: sticky;
 }
 .nav-links{
     flex: 1;
