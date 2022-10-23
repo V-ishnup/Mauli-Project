@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
     /* overflow:auto; */
@@ -30,7 +30,11 @@ nav {
     height: 26px;
     position: fixed;
     width: 100%;
+    /* margin-top: ; */
 
+}
+.header{
+    margin-top: auto;
 }
 
 .sticky {
